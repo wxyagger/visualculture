@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--- call google fonts, css and js here-->
+        <link rel="stylesheet" href="stylesheet.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <title>Manifesto</title>
+        <style>
+            img {
+                display:none;
+            }
+
+            .cloud li:hover img {
+                display:block;
+                width: 530px;
+                height: 331px;
+            }
+			
+			.cloud {
+				font-size: 45px;
+			}
+        </style>
+    </head>
+    
+    <body style="background-color: black; font-family: 'Anton', sans-serif; color: white;">
+      <!---  <div class="outer">
+            <div class="inner"><img src="img/1.Original.png"></a>Nothing is original</div>
+            <div class="inner"><img src="img/2.Fake.png">All current art is fake</div>
+            <div class="inner"><img src="img/3.Abandon.png">Art requires truth, not sincerity</div>
+            <div class="inner"><img src="img/4.Discovery.png">We are forever making new discoveries</div>
+            <div class="inner"><img src="img/5.Humanity.png">We want to leave nature and man alone</div>
+        </div> -->
+        <div id="wordcloud">
+            <ul class="cloud" style="font-family: 'Anton', sans-serif; color: white;">
+                <li id="one" style="font-size:45px"><img src="img/1.Original.png"></a>Nothing is original</li>
+                <li><img src="img/2.Fake.png">All current art is fake</li>
+                <li><img src="img/3.Abandon.png">Art requires truth, not sincerity</li>
+                <li><img src="img/4.Discovery.png">We are forever making new discoveries</li>
+                <li><img src="img/5.Humanity.png">We want to leave nature and man alone</li>
+            </ul>
+        </div>
+    </body>
+</html>
